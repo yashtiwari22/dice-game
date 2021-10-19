@@ -1,0 +1,58 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height:100vh;
+}
+.game-body{
+
+    margin: 20px;
+    padding:10px;
+    display:flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+.game-container{
+    background-image: url("./images/cardsback.jpg");
+    box-sizing: border-box;
+    width:600px;
+    height: 600px;
+    border-radius: 15px;
+    
+}
+.score{
+    display:flex;
+    align-items: center;
+    
+}
+h1,h3{
+    margin:20px;
+    padding: 10px;
+    color:white;
+
+}
+button{
+    width:130px;
+    height:40px;
+    margin:20px;
+    padding: 13px;
+    display: inline-block;
+    background-color: Transparent;
+    color:white;
+    border: 2px solid #ffffff;}
+#img{
+    
+    
+    margin:20px;
+    margin-right: 120px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+img{
+    border-radius:10px;
+}
+#Message{
+    color:white;
+}
